@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1C8338520549008001BFE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8338420549008001BFE53 /* AppDelegate.swift */; };
+		E1C8338720549008001BFE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8338620549008001BFE53 /* ViewController.swift */; };
+		E1C8338A20549008001BFE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C8338820549008001BFE53 /* Main.storyboard */; };
+		E1C8338C20549008001BFE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C8338B20549008001BFE53 /* Assets.xcassets */; };
+		E1C8338F20549008001BFE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C8338D20549008001BFE53 /* LaunchScreen.storyboard */; };
+		E1C8339A20549008001BFE53 /* OsirisIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8339920549008001BFE53 /* OsirisIOSTests.swift */; };
+		E1C833A520549008001BFE53 /* OsirisIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C833A420549008001BFE53 /* OsirisIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1C8339620549008001BFE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C8337920549008001BFE53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C8338020549008001BFE53;
+			remoteInfo = OsirisIOS;
+		};
+		E1C833A120549008001BFE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C8337920549008001BFE53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C8338020549008001BFE53;
+			remoteInfo = OsirisIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1C8338120549008001BFE53 /* OsirisIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsirisIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C8338420549008001BFE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1C8338620549008001BFE53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1C8338920549008001BFE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1C8338B20549008001BFE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C8338E20549008001BFE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1C8339020549008001BFE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C8339520549008001BFE53 /* OsirisIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OsirisIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C8339920549008001BFE53 /* OsirisIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsirisIOSTests.swift; sourceTree = "<group>"; };
+		E1C8339B20549008001BFE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C833A020549008001BFE53 /* OsirisIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OsirisIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C833A420549008001BFE53 /* OsirisIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsirisIOSUITests.swift; sourceTree = "<group>"; };
+		E1C833A620549008001BFE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C8337E20549008001BFE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C8339220549008001BFE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C8339D20549008001BFE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1C8337820549008001BFE53 = {
+			isa = PBXGroup;
+			children = (
+				E1C8338320549008001BFE53 /* OsirisIOS */,
+				E1C8339820549008001BFE53 /* OsirisIOSTests */,
+				E1C833A320549008001BFE53 /* OsirisIOSUITests */,
+				E1C8338220549008001BFE53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C8338220549008001BFE53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C8338120549008001BFE53 /* OsirisIOS.app */,
+				E1C8339520549008001BFE53 /* OsirisIOSTests.xctest */,
+				E1C833A020549008001BFE53 /* OsirisIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C8338320549008001BFE53 /* OsirisIOS */ = {
+			isa = PBXGroup;
+			children = (
+				E1C8338420549008001BFE53 /* AppDelegate.swift */,
+				E1C8338620549008001BFE53 /* ViewController.swift */,
+				E1C8338820549008001BFE53 /* Main.storyboard */,
+				E1C8338B20549008001BFE53 /* Assets.xcassets */,
+				E1C8338D20549008001BFE53 /* LaunchScreen.storyboard */,
+				E1C8339020549008001BFE53 /* Info.plist */,
+			);
+			path = OsirisIOS;
+			sourceTree = "<group>";
+		};
+		E1C8339820549008001BFE53 /* OsirisIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C8339920549008001BFE53 /* OsirisIOSTests.swift */,
+				E1C8339B20549008001BFE53 /* Info.plist */,
+			);
+			path = OsirisIOSTests;
+			sourceTree = "<group>";
+		};
+		E1C833A320549008001BFE53 /* OsirisIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C833A420549008001BFE53 /* OsirisIOSUITests.swift */,
+				E1C833A620549008001BFE53 /* Info.plist */,
+			);
+			path = OsirisIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C8338020549008001BFE53 /* OsirisIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C833A920549008001BFE53 /* Build configuration list for PBXNativeTarget "OsirisIOS" */;
+			buildPhases = (
+				E1C8337D20549008001BFE53 /* Sources */,
+				E1C8337E20549008001BFE53 /* Frameworks */,
+				E1C8337F20549008001BFE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OsirisIOS;
+			productName = OsirisIOS;
+			productReference = E1C8338120549008001BFE53 /* OsirisIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1C8339420549008001BFE53 /* OsirisIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C833AC20549008001BFE53 /* Build configuration list for PBXNativeTarget "OsirisIOSTests" */;
+			buildPhases = (
+				E1C8339120549008001BFE53 /* Sources */,
+				E1C8339220549008001BFE53 /* Frameworks */,
+				E1C8339320549008001BFE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C8339720549008001BFE53 /* PBXTargetDependency */,
+			);
+			name = OsirisIOSTests;
+			productName = OsirisIOSTests;
+			productReference = E1C8339520549008001BFE53 /* OsirisIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1C8339F20549008001BFE53 /* OsirisIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C833AF20549008001BFE53 /* Build configuration list for PBXNativeTarget "OsirisIOSUITests" */;
+			buildPhases = (
+				E1C8339C20549008001BFE53 /* Sources */,
+				E1C8339D20549008001BFE53 /* Frameworks */,
+				E1C8339E20549008001BFE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C833A220549008001BFE53 /* PBXTargetDependency */,
+			);
+			name = OsirisIOSUITests;
+			productName = OsirisIOSUITests;
+			productReference = E1C833A020549008001BFE53 /* OsirisIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C8337920549008001BFE53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Avinash Jain";
+				TargetAttributes = {
+					E1C8338020549008001BFE53 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E1C8339420549008001BFE53 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1C8338020549008001BFE53;
+					};
+					E1C8339F20549008001BFE53 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1C8338020549008001BFE53;
+					};
+				};
+			};
+			buildConfigurationList = E1C8337C20549008001BFE53 /* Build configuration list for PBXProject "OsirisIOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1C8337820549008001BFE53;
+			productRefGroup = E1C8338220549008001BFE53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C8338020549008001BFE53 /* OsirisIOS */,
+				E1C8339420549008001BFE53 /* OsirisIOSTests */,
+				E1C8339F20549008001BFE53 /* OsirisIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C8337F20549008001BFE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C8338F20549008001BFE53 /* LaunchScreen.storyboard in Resources */,
+				E1C8338C20549008001BFE53 /* Assets.xcassets in Resources */,
+				E1C8338A20549008001BFE53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C8339320549008001BFE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C8339E20549008001BFE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C8337D20549008001BFE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C8338720549008001BFE53 /* ViewController.swift in Sources */,
+				E1C8338520549008001BFE53 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C8339120549008001BFE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C8339A20549008001BFE53 /* OsirisIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C8339C20549008001BFE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C833A520549008001BFE53 /* OsirisIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1C8339720549008001BFE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C8338020549008001BFE53 /* OsirisIOS */;
+			targetProxy = E1C8339620549008001BFE53 /* PBXContainerItemProxy */;
+		};
+		E1C833A220549008001BFE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C8338020549008001BFE53 /* OsirisIOS */;
+			targetProxy = E1C833A120549008001BFE53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1C8338820549008001BFE53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C8338920549008001BFE53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1C8338D20549008001BFE53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C8338E20549008001BFE53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1C833A720549008001BFE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1C833A820549008001BFE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C833AA20549008001BFE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = OsirisIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheCodex.OsirisIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1C833AB20549008001BFE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = OsirisIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheCodex.OsirisIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1C833AD20549008001BFE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = OsirisIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheCodex.OsirisIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OsirisIOS.app/OsirisIOS";
+			};
+			name = Debug;
+		};
+		E1C833AE20549008001BFE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = OsirisIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheCodex.OsirisIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OsirisIOS.app/OsirisIOS";
+			};
+			name = Release;
+		};
+		E1C833B020549008001BFE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = OsirisIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheCodex.OsirisIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OsirisIOS;
+			};
+			name = Debug;
+		};
+		E1C833B120549008001BFE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V593WX43L;
+				INFOPLIST_FILE = OsirisIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TheCodex.OsirisIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OsirisIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C8337C20549008001BFE53 /* Build configuration list for PBXProject "OsirisIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C833A720549008001BFE53 /* Debug */,
+				E1C833A820549008001BFE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C833A920549008001BFE53 /* Build configuration list for PBXNativeTarget "OsirisIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C833AA20549008001BFE53 /* Debug */,
+				E1C833AB20549008001BFE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C833AC20549008001BFE53 /* Build configuration list for PBXNativeTarget "OsirisIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C833AD20549008001BFE53 /* Debug */,
+				E1C833AE20549008001BFE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C833AF20549008001BFE53 /* Build configuration list for PBXNativeTarget "OsirisIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C833B020549008001BFE53 /* Debug */,
+				E1C833B120549008001BFE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C8337920549008001BFE53 /* Project object */;
+}

@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func learnPressed(_ sender: Any) {
+        User.currentUser.action = .learn
+        performSegue(withIdentifier: "cat", sender: self)
+    }
+    @IBAction func testPressed(_ sender: Any) {
+        User.currentUser.action = .test
+        performSegue(withIdentifier: "cat", sender: self)
+    }
 }
-

@@ -1,0 +1,6 @@
+framework module Pods_OsirisIOSTests {
+  umbrella header "Pods-OsirisIOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

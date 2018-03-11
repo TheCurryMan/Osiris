@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DCD393DF69EE6DE4AD424B1192DD02 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = E90A0271C5A3FB823B585476493A4250 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B67D0DECD15675D7D269274DCBA50AE /* Pods-OsirisIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35614BF3E2C22A52CEE9E4266996B3D9 /* Pods-OsirisIOS-dummy.m */; };
+		0D7F425CFB628271BFB6FCFF8201BF4F /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7623148FEAF19A4DD670E86AE6FBA9 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		139A9CEDE5163F58CBB1A3A135DAD6A3 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8ACCC4EA1B7383303C1A0B9E21FB1F /* UIImage+ChameleonPrivate.m */; };
+		1B704F3C816C4532F9B7FDFE0625732E /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 278E5AC27C5119A91048F9E9D335BD1B /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269232740DB65B11E83FBD575B7ADB0F /* Pods-OsirisIOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A4B0A49AB78187CCBD617011F4EF59 /* Pods-OsirisIOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29F74E8A334254C68C6720E3B247CE32 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CB7960EE0508DFF53EB33412B2B99F /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DDDE2C06FB4DCC639CFD100F224D6FD /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53B3A7E002969A171B73C5F194EBB8 /* UIColor+Chameleon.m */; };
+		34D751AECD252A6F375328CB8BB48D4B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */; };
+		37302EFB34106F7CA6F3C12B236ADB2A /* Pods-OsirisIOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD306AE3159805EACD9D18DAFFCE1A /* Pods-OsirisIOSUITests-dummy.m */; };
+		3D08C4F4E2E65D192D317AED0A8237B3 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D48DF6783B35EA5744B95A58667CCE /* UIColor+ChameleonPrivate.m */; };
+		44117424757A5E62D87B8BF4B41A4207 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5106409C2FAABC541F240C45D4A094 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		459048ECD9FAA42B77566EC56ECAD793 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE16945A974F637863A7C5AB15A0078 /* UINavigationController+Chameleon.m */; };
+		5EA9F0ED011B06DEFA8542EEE72508C3 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = A423DA208AB22F55D922897E7F2219C0 /* UIViewController+Chameleon.m */; };
+		604286A8F8A2ACB063BDF97B09D4987C /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 661C40D62B7872989239EDABBD2AA390 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6712100A2CCB9B987281A02F6778473C /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D1172B976C8AB8D4B092EAF35E2AA7 /* NSArray+Chameleon.m */; };
+		6D9F0C77C6996D7FBC0F03AF8E706276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
+		78281D8673FC507089FCFDC439DEDC16 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = C53BC3D13A573BA04A8AD6081155F480 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		833F15A28A0D562548517BCA8EAF23B6 /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FD8E0A933C5E13127A008FC86DE99 /* ChameleonShorthand.swift */; };
+		83CFC8F573AD5B75191E162E64C7D039 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D077AF53A63E169CF4894002E0C90F7 /* UIButton+Chameleon.m */; };
+		86F7D970F220974A0E26C3B632C5C74F /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = D233F2A82BD4E62D6B674EC3DB0956C7 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ECF929AC5E737EBEB542283886D5E07 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A25DCACF02AF5EFA2D40F42D7FCE41C /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933E15DDEA87E0E97E6533891EE0168F /* Pods-OsirisIOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E61557AB53A5EF1707E8B05B35C38B6E /* Pods-OsirisIOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E542740750F827BE2EBE3DE6F62D0E /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B72F7ECFC6C3168438D4E4018F865D61 /* ChameleonFramework-dummy.m */; };
+		9A3EAF15D3C58FD56A552FD703A9154C /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = CCFD7BA9EEAC0028FA54219133351F1B /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B6AD39C81FAF37861FC0FEC41022146 /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B972F07ECB4ECFEA4310C7563B910F /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1BB1F090EDD5C577280E3F9B5B9E8E0 /* Pods-OsirisIOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 801C15C0FF67D9A1D6E0D11E144A0BE6 /* Pods-OsirisIOSTests-dummy.m */; };
+		A664D0A12D5F3DBD08A7E8DFE3AE83E2 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A68CA2F2AC9711AAC4507C0DD5B450B /* UIView+ChameleonPrivate.m */; };
+		AB489462A367B3FC2310034B380E5D9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		B26038F91C7C4CC322D7F25C5D16FE9E /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930BCDF3BFAA3F1171DEC4D152AB65A /* ChameleonConstants.m */; };
+		B4EA53699AA19822E674188743266B2B /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 429F834439C2EDA91668BD98BF1FEEDF /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B89E561B3F87399E40869BAC9B387F4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		BFA97401155C4E14893D9AA1E0D1EC80 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7A2220D6ADB6AEE96E5FE44410E511 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C8BB46937DD0BBC7FBE25E298052F8 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 994B291459F83445008BCEFA86987130 /* UIAppearance+Swift.m */; };
+		D661DB54FF7C4C1461FD8106324B7A4E /* Pods-OsirisIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D61746589F05281DCC12DC0C2F3D2D6 /* Pods-OsirisIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB5FB611FB6EBF2F2BA7B78FE0CED535 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7CEC5509E9F483E4061F80FB31FC0B /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C14B41C5050E1E62B3DAAFE486C07F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		E7FA38FEAF957D69E92153FBAFB3DB40 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A588985C05816BCD39D899EC4ABEFEC /* Chameleon_.m */; };
+		E87D2FB41E6EB857013EB020297C08DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		E91202612969D2BDB5A801F81AE96FFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */; };
+		EC786817C5CEBCD51A4C9EC9B883ED6F /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE2D3B2F08E9C96F22232BA4F6A95FA /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4DBD1E13182AA813DC1237FA6E3A42 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C91222FE764A38A6487DE369FDC5BB4 /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB82C1293D7DDE0D3E2E6D68CDD5852C /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA30963BF12E1B574CE35495A6989 /* UILabel+Chameleon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B60693D485878A3DE8F7B2F1FDA3876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76BD4592010354D6C23D6ECCA20D83A8;
+			remoteInfo = ChameleonFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E8AA1DBCA4C776472FAE5496E3D57C /* Pods_OsirisIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OsirisIOSTests.framework; path = "Pods-OsirisIOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F792048FF558E30F07E5594758BF46 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		151C8C7F6CBD018F7F95903C9480808E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5106409C2FAABC541F240C45D4A094 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		1C2FD8E0A933C5E13127A008FC86DE99 /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
+		1D61746589F05281DCC12DC0C2F3D2D6 /* Pods-OsirisIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OsirisIOS-umbrella.h"; sourceTree = "<group>"; };
+		24EFAA1F400E260D00DC5D01F2F42389 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		278E5AC27C5119A91048F9E9D335BD1B /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		28D7C13AC2E0E4A7C4CCD35C07A86407 /* Pods-OsirisIOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OsirisIOS-frameworks.sh"; sourceTree = "<group>"; };
+		2A25DCACF02AF5EFA2D40F42D7FCE41C /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		2A31245EF784877F03F57EC73EFD1D12 /* Pods-OsirisIOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OsirisIOSTests-resources.sh"; sourceTree = "<group>"; };
+		2C7623148FEAF19A4DD670E86AE6FBA9 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		35614BF3E2C22A52CEE9E4266996B3D9 /* Pods-OsirisIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OsirisIOS-dummy.m"; sourceTree = "<group>"; };
+		429F834439C2EDA91668BD98BF1FEEDF /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		437FE6B8007CDE8C95724E437384464D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B311129526104E05CF4F97C9FD7E85 /* Pods-OsirisIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OsirisIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		43F53335A666DD21B3156D78D958447B /* Pods-OsirisIOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OsirisIOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		474CEC855FE7602ABD5029AAF01A0599 /* Pods-OsirisIOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OsirisIOSUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4908DCDE005242E0D33A3DB66B150265 /* Pods_OsirisIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OsirisIOSUITests.framework; path = "Pods-OsirisIOSUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4930BCDF3BFAA3F1171DEC4D152AB65A /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		49991AA81BC02842031D51CCDCBB0E24 /* Pods-OsirisIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OsirisIOS.release.xcconfig"; sourceTree = "<group>"; };
+		4B8ACCC4EA1B7383303C1A0B9E21FB1F /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		4C91222FE764A38A6487DE369FDC5BB4 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		4CCD306AE3159805EACD9D18DAFFCE1A /* Pods-OsirisIOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OsirisIOSUITests-dummy.m"; sourceTree = "<group>"; };
+		5B208EFCF97DFE868ECFCF56AB091D18 /* Pods-OsirisIOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OsirisIOSUITests.modulemap"; sourceTree = "<group>"; };
+		5BAAF4D6427F41C2734406AD003D7CD0 /* Pods-OsirisIOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OsirisIOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FE16945A974F637863A7C5AB15A0078 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		661C40D62B7872989239EDABBD2AA390 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		67EEA30963BF12E1B574CE35495A6989 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		6BE7F15DF5ED18674F9175EEF1EBF49B /* Pods-OsirisIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OsirisIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C43F1D58E150060E9102FCA76C0F165 /* Pods-OsirisIOSUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OsirisIOSUITests-resources.sh"; sourceTree = "<group>"; };
+		6CF8D913CF41FBA6F8310091DE138289 /* Pods-OsirisIOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OsirisIOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		70FD31F66FDF400486B32FE8C04FDA46 /* Pods-OsirisIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OsirisIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B7CEC5509E9F483E4061F80FB31FC0B /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		7D077AF53A63E169CF4894002E0C90F7 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		7D759260E6787A7A89EACCFF6F347540 /* Pods-OsirisIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OsirisIOS.modulemap"; sourceTree = "<group>"; };
+		801C15C0FF67D9A1D6E0D11E144A0BE6 /* Pods-OsirisIOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OsirisIOSTests-dummy.m"; sourceTree = "<group>"; };
+		83026B72F105FA3DB2F6142933DAF51F /* Pods-OsirisIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OsirisIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83BF17DA145DB9807A5CFFB61986B953 /* Pods-OsirisIOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OsirisIOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A588985C05816BCD39D899EC4ABEFEC /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		8A68CA2F2AC9711AAC4507C0DD5B450B /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		8C908334C49FF7F9D11F47A5D114EA06 /* Pods-OsirisIOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OsirisIOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92CB7960EE0508DFF53EB33412B2B99F /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9672E298538258E252F70637348BF1EA /* Pods-OsirisIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OsirisIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		96CEE7F601D86285D789A7ECF6946627 /* Pods-OsirisIOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OsirisIOSTests.modulemap"; sourceTree = "<group>"; };
+		994B291459F83445008BCEFA86987130 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		A3A4B0A49AB78187CCBD617011F4EF59 /* Pods-OsirisIOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OsirisIOSTests-umbrella.h"; sourceTree = "<group>"; };
+		A423DA208AB22F55D922897E7F2219C0 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		ADAB5BB01E4D597777A3845505A025AD /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72F7ECFC6C3168438D4E4018F865D61 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		BD53B3A7E002969A171B73C5F194EBB8 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		BDB8215EAD4F3F778935BD4CFABAD071 /* Pods-OsirisIOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OsirisIOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		BE7A2220D6ADB6AEE96E5FE44410E511 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		C53BC3D13A573BA04A8AD6081155F480 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		C932AB8BDDB865A1329F8E75C15CCB63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96708CE08F5D48A9341836CD3B6068E /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		CCFD7BA9EEAC0028FA54219133351F1B /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		D233F2A82BD4E62D6B674EC3DB0956C7 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		D35447D62559BAD4033B5836931A6DDE /* Pods_OsirisIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OsirisIOS.framework; path = "Pods-OsirisIOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE64CCBF1D4DA8179D60B796D10DC65A /* Pods-OsirisIOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OsirisIOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFE2D3B2F08E9C96F22232BA4F6A95FA /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		E3D1172B976C8AB8D4B092EAF35E2AA7 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E61557AB53A5EF1707E8B05B35C38B6E /* Pods-OsirisIOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OsirisIOSUITests-umbrella.h"; sourceTree = "<group>"; };
+		E90A0271C5A3FB823B585476493A4250 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		EA230CB178573A693528C079AF172AB0 /* Pods-OsirisIOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OsirisIOS-resources.sh"; sourceTree = "<group>"; };
+		EACEAA6874CACD5EFBDE20B358A6D2BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F1D48DF6783B35EA5744B95A58667CCE /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		F8B972F07ECB4ECFEA4310C7563B910F /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ACAE15934F2E37188AD0701EEE12413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB489462A367B3FC2310034B380E5D9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752E36233D8A4B7364E05C8F2D2603EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89E561B3F87399E40869BAC9B387F4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A229A49B43892F1EBCC197F57B44679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C14B41C5050E1E62B3DAAFE486C07F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FD70AC579E74592E2EAC475ADFB8D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91202612969D2BDB5A801F81AE96FFB /* CoreGraphics.framework in Frameworks */,
+				E87D2FB41E6EB857013EB020297C08DF /* Foundation.framework in Frameworks */,
+				34D751AECD252A6F375328CB8BB48D4B /* QuartzCore.framework in Frameworks */,
+				6D9F0C77C6996D7FBC0F03AF8E706276 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05569E68D0503030A743C6A6E246D70E /* Pods-OsirisIOS */ = {
+			isa = PBXGroup;
+			children = (
+				EACEAA6874CACD5EFBDE20B358A6D2BA /* Info.plist */,
+				7D759260E6787A7A89EACCFF6F347540 /* Pods-OsirisIOS.modulemap */,
+				8C908334C49FF7F9D11F47A5D114EA06 /* Pods-OsirisIOS-acknowledgements.markdown */,
+				6CF8D913CF41FBA6F8310091DE138289 /* Pods-OsirisIOS-acknowledgements.plist */,
+				35614BF3E2C22A52CEE9E4266996B3D9 /* Pods-OsirisIOS-dummy.m */,
+				28D7C13AC2E0E4A7C4CCD35C07A86407 /* Pods-OsirisIOS-frameworks.sh */,
+				EA230CB178573A693528C079AF172AB0 /* Pods-OsirisIOS-resources.sh */,
+				1D61746589F05281DCC12DC0C2F3D2D6 /* Pods-OsirisIOS-umbrella.h */,
+				9672E298538258E252F70637348BF1EA /* Pods-OsirisIOS.debug.xcconfig */,
+				49991AA81BC02842031D51CCDCBB0E24 /* Pods-OsirisIOS.release.xcconfig */,
+			);
+			name = "Pods-OsirisIOS";
+			path = "Target Support Files/Pods-OsirisIOS";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		323EF520F7FC768FC6B3BBC24558040C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		5D88D9F3ED04A8D9F8230D3E65C290E9 /* Pods-OsirisIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C932AB8BDDB865A1329F8E75C15CCB63 /* Info.plist */,
+				5B208EFCF97DFE868ECFCF56AB091D18 /* Pods-OsirisIOSUITests.modulemap */,
+				43F53335A666DD21B3156D78D958447B /* Pods-OsirisIOSUITests-acknowledgements.markdown */,
+				83BF17DA145DB9807A5CFFB61986B953 /* Pods-OsirisIOSUITests-acknowledgements.plist */,
+				4CCD306AE3159805EACD9D18DAFFCE1A /* Pods-OsirisIOSUITests-dummy.m */,
+				474CEC855FE7602ABD5029AAF01A0599 /* Pods-OsirisIOSUITests-frameworks.sh */,
+				6C43F1D58E150060E9102FCA76C0F165 /* Pods-OsirisIOSUITests-resources.sh */,
+				E61557AB53A5EF1707E8B05B35C38B6E /* Pods-OsirisIOSUITests-umbrella.h */,
+				70FD31F66FDF400486B32FE8C04FDA46 /* Pods-OsirisIOSUITests.debug.xcconfig */,
+				83026B72F105FA3DB2F6142933DAF51F /* Pods-OsirisIOSUITests.release.xcconfig */,
+			);
+			name = "Pods-OsirisIOSUITests";
+			path = "Target Support Files/Pods-OsirisIOSUITests";
+			sourceTree = "<group>";
+		};
+		7B783DBA6AACC8AE315E20341721498E /* ChameleonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B9387F5222F3EF11A99CEF502E354401 /* Default */,
+				B7E76D966F50933D97BFE03F50716CEA /* Support Files */,
+				D2F547156585A5C611A4386CA4935ED6 /* Swift */,
+			);
+			name = ChameleonFramework;
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				F41B0DDFB9E82BE9140E9FEA5100C9F6 /* Pods */,
+				BCCAF622D12548B603EE7932A2AB7012 /* Products */,
+				8987EFB1FC34F3CA7C0A642620BD30EA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8987EFB1FC34F3CA7C0A642620BD30EA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05569E68D0503030A743C6A6E246D70E /* Pods-OsirisIOS */,
+				AAAF8EDDAE576CFF82F1FD2866F8246E /* Pods-OsirisIOSTests */,
+				5D88D9F3ED04A8D9F8230D3E65C290E9 /* Pods-OsirisIOSUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */,
+				ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */,
+				E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */,
+				FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AAAF8EDDAE576CFF82F1FD2866F8246E /* Pods-OsirisIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				151C8C7F6CBD018F7F95903C9480808E /* Info.plist */,
+				96CEE7F601D86285D789A7ECF6946627 /* Pods-OsirisIOSTests.modulemap */,
+				5BAAF4D6427F41C2734406AD003D7CD0 /* Pods-OsirisIOSTests-acknowledgements.markdown */,
+				DE64CCBF1D4DA8179D60B796D10DC65A /* Pods-OsirisIOSTests-acknowledgements.plist */,
+				801C15C0FF67D9A1D6E0D11E144A0BE6 /* Pods-OsirisIOSTests-dummy.m */,
+				BDB8215EAD4F3F778935BD4CFABAD071 /* Pods-OsirisIOSTests-frameworks.sh */,
+				2A31245EF784877F03F57EC73EFD1D12 /* Pods-OsirisIOSTests-resources.sh */,
+				A3A4B0A49AB78187CCBD617011F4EF59 /* Pods-OsirisIOSTests-umbrella.h */,
+				6BE7F15DF5ED18674F9175EEF1EBF49B /* Pods-OsirisIOSTests.debug.xcconfig */,
+				43B311129526104E05CF4F97C9FD7E85 /* Pods-OsirisIOSTests.release.xcconfig */,
+			);
+			name = "Pods-OsirisIOSTests";
+			path = "Target Support Files/Pods-OsirisIOSTests";
+			sourceTree = "<group>";
+		};
+		B7E76D966F50933D97BFE03F50716CEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C96708CE08F5D48A9341836CD3B6068E /* ChameleonFramework.modulemap */,
+				24EFAA1F400E260D00DC5D01F2F42389 /* ChameleonFramework.xcconfig */,
+				B72F7ECFC6C3168438D4E4018F865D61 /* ChameleonFramework-dummy.m */,
+				14F792048FF558E30F07E5594758BF46 /* ChameleonFramework-prefix.pch */,
+				278E5AC27C5119A91048F9E9D335BD1B /* ChameleonFramework-umbrella.h */,
+				437FE6B8007CDE8C95724E437384464D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+		B9387F5222F3EF11A99CEF502E354401 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				4C91222FE764A38A6487DE369FDC5BB4 /* Chameleon.h */,
+				C53BC3D13A573BA04A8AD6081155F480 /* Chameleon_.h */,
+				8A588985C05816BCD39D899EC4ABEFEC /* Chameleon_.m */,
+				CCFD7BA9EEAC0028FA54219133351F1B /* ChameleonConstants.h */,
+				4930BCDF3BFAA3F1171DEC4D152AB65A /* ChameleonConstants.m */,
+				DFE2D3B2F08E9C96F22232BA4F6A95FA /* ChameleonEnums.h */,
+				429F834439C2EDA91668BD98BF1FEEDF /* ChameleonMacros.h */,
+				92CB7960EE0508DFF53EB33412B2B99F /* NSArray+Chameleon.h */,
+				E3D1172B976C8AB8D4B092EAF35E2AA7 /* NSArray+Chameleon.m */,
+				F8B972F07ECB4ECFEA4310C7563B910F /* UIAppearance+Swift.h */,
+				994B291459F83445008BCEFA86987130 /* UIAppearance+Swift.m */,
+				2C7623148FEAF19A4DD670E86AE6FBA9 /* UIButton+Chameleon.h */,
+				7D077AF53A63E169CF4894002E0C90F7 /* UIButton+Chameleon.m */,
+				7B7CEC5509E9F483E4061F80FB31FC0B /* UIColor+Chameleon.h */,
+				BD53B3A7E002969A171B73C5F194EBB8 /* UIColor+Chameleon.m */,
+				1A5106409C2FAABC541F240C45D4A094 /* UIColor+ChameleonPrivate.h */,
+				F1D48DF6783B35EA5744B95A58667CCE /* UIColor+ChameleonPrivate.m */,
+				D233F2A82BD4E62D6B674EC3DB0956C7 /* UIImage+ChameleonPrivate.h */,
+				4B8ACCC4EA1B7383303C1A0B9E21FB1F /* UIImage+ChameleonPrivate.m */,
+				661C40D62B7872989239EDABBD2AA390 /* UILabel+Chameleon.h */,
+				67EEA30963BF12E1B574CE35495A6989 /* UILabel+Chameleon.m */,
+				BE7A2220D6ADB6AEE96E5FE44410E511 /* UINavigationController+Chameleon.h */,
+				5FE16945A974F637863A7C5AB15A0078 /* UINavigationController+Chameleon.m */,
+				2A25DCACF02AF5EFA2D40F42D7FCE41C /* UIView+ChameleonPrivate.h */,
+				8A68CA2F2AC9711AAC4507C0DD5B450B /* UIView+ChameleonPrivate.m */,
+				E90A0271C5A3FB823B585476493A4250 /* UIViewController+Chameleon.h */,
+				A423DA208AB22F55D922897E7F2219C0 /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		BCCAF622D12548B603EE7932A2AB7012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAB5BB01E4D597777A3845505A025AD /* ChameleonFramework.framework */,
+				D35447D62559BAD4033B5836931A6DDE /* Pods_OsirisIOS.framework */,
+				09E8AA1DBCA4C776472FAE5496E3D57C /* Pods_OsirisIOSTests.framework */,
+				4908DCDE005242E0D33A3DB66B150265 /* Pods_OsirisIOSUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2F547156585A5C611A4386CA4935ED6 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				1C2FD8E0A933C5E13127A008FC86DE99 /* ChameleonShorthand.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		F41B0DDFB9E82BE9140E9FEA5100C9F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B783DBA6AACC8AE315E20341721498E /* ChameleonFramework */,
+				323EF520F7FC768FC6B3BBC24558040C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		75A59427E92E99BD23D24FC2BC0E160C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D661DB54FF7C4C1461FD8106324B7A4E /* Pods-OsirisIOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		766C89B0291AEEC6BA5B4D3CFDBB6F86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269232740DB65B11E83FBD575B7ADB0F /* Pods-OsirisIOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4457F7F2F28A0B99FF8F1B98219F8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4DBD1E13182AA813DC1237FA6E3A42 /* Chameleon.h in Headers */,
+				78281D8673FC507089FCFDC439DEDC16 /* Chameleon_.h in Headers */,
+				9A3EAF15D3C58FD56A552FD703A9154C /* ChameleonConstants.h in Headers */,
+				EC786817C5CEBCD51A4C9EC9B883ED6F /* ChameleonEnums.h in Headers */,
+				1B704F3C816C4532F9B7FDFE0625732E /* ChameleonFramework-umbrella.h in Headers */,
+				B4EA53699AA19822E674188743266B2B /* ChameleonMacros.h in Headers */,
+				29F74E8A334254C68C6720E3B247CE32 /* NSArray+Chameleon.h in Headers */,
+				9B6AD39C81FAF37861FC0FEC41022146 /* UIAppearance+Swift.h in Headers */,
+				0D7F425CFB628271BFB6FCFF8201BF4F /* UIButton+Chameleon.h in Headers */,
+				DB5FB611FB6EBF2F2BA7B78FE0CED535 /* UIColor+Chameleon.h in Headers */,
+				44117424757A5E62D87B8BF4B41A4207 /* UIColor+ChameleonPrivate.h in Headers */,
+				86F7D970F220974A0E26C3B632C5C74F /* UIImage+ChameleonPrivate.h in Headers */,
+				604286A8F8A2ACB063BDF97B09D4987C /* UILabel+Chameleon.h in Headers */,
+				BFA97401155C4E14893D9AA1E0D1EC80 /* UINavigationController+Chameleon.h in Headers */,
+				8ECF929AC5E737EBEB542283886D5E07 /* UIView+ChameleonPrivate.h in Headers */,
+				03DCD393DF69EE6DE4AD424B1192DD02 /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB50228FFD1C48618C206A5211C61664 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933E15DDEA87E0E97E6533891EE0168F /* Pods-OsirisIOSUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76BD4592010354D6C23D6ECCA20D83A8 /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07398A672F3D6D682C4B2E94C83E2A0D /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				FA68695022B7C8DC3A47D6DF81079652 /* Sources */,
+				E3FD70AC579E74592E2EAC475ADFB8D9 /* Frameworks */,
+				8D4457F7F2F28A0B99FF8F1B98219F8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = ADAB5BB01E4D597777A3845505A025AD /* ChameleonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B23500D2DC3F3FBEF79FC46EBA0A307B /* Pods-OsirisIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83323EA75E1602C246E5C99E155DE0B /* Build configuration list for PBXNativeTarget "Pods-OsirisIOSUITests" */;
+			buildPhases = (
+				94E09D5C02C2D6C2C7B990EFE8FC879C /* Sources */,
+				6ACAE15934F2E37188AD0701EEE12413 /* Frameworks */,
+				AB50228FFD1C48618C206A5211C61664 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OsirisIOSUITests";
+			productName = "Pods-OsirisIOSUITests";
+			productReference = 4908DCDE005242E0D33A3DB66B150265 /* Pods_OsirisIOSUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5E00CB75EE8A7BDD891AF3C236531EB /* Pods-OsirisIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0320290B78CD06D10662E80DB435E919 /* Build configuration list for PBXNativeTarget "Pods-OsirisIOS" */;
+			buildPhases = (
+				A834F818DD148A43E845C654774589E6 /* Sources */,
+				7A229A49B43892F1EBCC197F57B44679 /* Frameworks */,
+				75A59427E92E99BD23D24FC2BC0E160C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5463EF5F6A4C1938309B3023EA5030 /* PBXTargetDependency */,
+			);
+			name = "Pods-OsirisIOS";
+			productName = "Pods-OsirisIOS";
+			productReference = D35447D62559BAD4033B5836931A6DDE /* Pods_OsirisIOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6899E3FD4A54BF96036A8AFD1821466 /* Pods-OsirisIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA7417DFA95A61FDB2F6B1653578A30 /* Build configuration list for PBXNativeTarget "Pods-OsirisIOSTests" */;
+			buildPhases = (
+				5A3E0347F26741C953C0EAC4AA7A87EE /* Sources */,
+				752E36233D8A4B7364E05C8F2D2603EC /* Frameworks */,
+				766C89B0291AEEC6BA5B4D3CFDBB6F86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OsirisIOSTests";
+			productName = "Pods-OsirisIOSTests";
+			productReference = 09E8AA1DBCA4C776472FAE5496E3D57C /* Pods_OsirisIOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BCCAF622D12548B603EE7932A2AB7012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76BD4592010354D6C23D6ECCA20D83A8 /* ChameleonFramework */,
+				C5E00CB75EE8A7BDD891AF3C236531EB /* Pods-OsirisIOS */,
+				C6899E3FD4A54BF96036A8AFD1821466 /* Pods-OsirisIOSTests */,
+				B23500D2DC3F3FBEF79FC46EBA0A307B /* Pods-OsirisIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A3E0347F26741C953C0EAC4AA7A87EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BB1F090EDD5C577280E3F9B5B9E8E0 /* Pods-OsirisIOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E09D5C02C2D6C2C7B990EFE8FC879C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37302EFB34106F7CA6F3C12B236ADB2A /* Pods-OsirisIOSUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A834F818DD148A43E845C654774589E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B67D0DECD15675D7D269274DCBA50AE /* Pods-OsirisIOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA68695022B7C8DC3A47D6DF81079652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FA38FEAF957D69E92153FBAFB3DB40 /* Chameleon_.m in Sources */,
+				B26038F91C7C4CC322D7F25C5D16FE9E /* ChameleonConstants.m in Sources */,
+				95E542740750F827BE2EBE3DE6F62D0E /* ChameleonFramework-dummy.m in Sources */,
+				833F15A28A0D562548517BCA8EAF23B6 /* ChameleonShorthand.swift in Sources */,
+				6712100A2CCB9B987281A02F6778473C /* NSArray+Chameleon.m in Sources */,
+				C3C8BB46937DD0BBC7FBE25E298052F8 /* UIAppearance+Swift.m in Sources */,
+				83CFC8F573AD5B75191E162E64C7D039 /* UIButton+Chameleon.m in Sources */,
+				2DDDE2C06FB4DCC639CFD100F224D6FD /* UIColor+Chameleon.m in Sources */,
+				3D08C4F4E2E65D192D317AED0A8237B3 /* UIColor+ChameleonPrivate.m in Sources */,
+				139A9CEDE5163F58CBB1A3A135DAD6A3 /* UIImage+ChameleonPrivate.m in Sources */,
+				FB82C1293D7DDE0D3E2E6D68CDD5852C /* UILabel+Chameleon.m in Sources */,
+				459048ECD9FAA42B77566EC56ECAD793 /* UINavigationController+Chameleon.m in Sources */,
+				A664D0A12D5F3DBD08A7E8DFE3AE83E2 /* UIView+ChameleonPrivate.m in Sources */,
+				5EA9F0ED011B06DEFA8542EEE72508C3 /* UIViewController+Chameleon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD5463EF5F6A4C1938309B3023EA5030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 76BD4592010354D6C23D6ECCA20D83A8 /* ChameleonFramework */;
+			targetProxy = 7B60693D485878A3DE8F7B2F1FDA3876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17527EB1EA11F989782863703185CB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EFAA1F400E260D00DC5D01F2F42389 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D28200ADFD8B45A581D9DD71071D2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B311129526104E05CF4F97C9FD7E85 /* Pods-OsirisIOSTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OsirisIOSTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OsirisIOSTests/Pods-OsirisIOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OsirisIOSTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D62BC16F8F7CBFCA6E8BD84680693A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49991AA81BC02842031D51CCDCBB0E24 /* Pods-OsirisIOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OsirisIOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OsirisIOS/Pods-OsirisIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OsirisIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B45A553201D97CB4FD6E7D90D744F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FD31F66FDF400486B32FE8C04FDA46 /* Pods-OsirisIOSUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OsirisIOSUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OsirisIOSUITests/Pods-OsirisIOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OsirisIOSUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9E19CF427507F31D205CD1B92D5B4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EFAA1F400E260D00DC5D01F2F42389 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C72882EFD4BA6D0C7E9D3F510F165EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83026B72F105FA3DB2F6142933DAF51F /* Pods-OsirisIOSUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OsirisIOSUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OsirisIOSUITests/Pods-OsirisIOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OsirisIOSUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA33F186435244FD0FD5B7325332656C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4015F529D451339608BE10EAE17ECB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9672E298538258E252F70637348BF1EA /* Pods-OsirisIOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OsirisIOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OsirisIOS/Pods-OsirisIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OsirisIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED6548D8E88B654BD64E45690CD8EF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE7F15DF5ED18674F9175EEF1EBF49B /* Pods-OsirisIOSTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OsirisIOSTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OsirisIOSTests/Pods-OsirisIOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OsirisIOSTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0320290B78CD06D10662E80DB435E919 /* Build configuration list for PBXNativeTarget "Pods-OsirisIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4015F529D451339608BE10EAE17ECB1 /* Debug */,
+				4D62BC16F8F7CBFCA6E8BD84680693A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07398A672F3D6D682C4B2E94C83E2A0D /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17527EB1EA11F989782863703185CB49 /* Debug */,
+				A9E19CF427507F31D205CD1B92D5B4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A24856F1A4871A780301AF5C02A2A /* Debug */,
+				CA33F186435244FD0FD5B7325332656C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA7417DFA95A61FDB2F6B1653578A30 /* Build configuration list for PBXNativeTarget "Pods-OsirisIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6548D8E88B654BD64E45690CD8EF20 /* Debug */,
+				1D28200ADFD8B45A581D9DD71071D2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83323EA75E1602C246E5C99E155DE0B /* Build configuration list for PBXNativeTarget "Pods-OsirisIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B45A553201D97CB4FD6E7D90D744F00 /* Debug */,
+				C72882EFD4BA6D0C7E9D3F510F165EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

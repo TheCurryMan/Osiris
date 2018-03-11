@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D44B60B28AED06E01DA503 /* Pods_OsirisIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48664F4B3572717A99D0762 /* Pods_OsirisIOSTests.framework */; };
+		5CCCE091FCB6BA16544E81AD /* Pods_OsirisIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92187EF85FC55DAB90902794 /* Pods_OsirisIOSUITests.framework */; };
+		5E91E3466ED794CF14448019 /* Pods_OsirisIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A446B88B615429978B710BF0 /* Pods_OsirisIOS.framework */; };
 		E1C8338520549008001BFE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8338420549008001BFE53 /* AppDelegate.swift */; };
 		E1C8338720549008001BFE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8338620549008001BFE53 /* ViewController.swift */; };
 		E1C8338A20549008001BFE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C8338820549008001BFE53 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		E1C8338F20549008001BFE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C8338D20549008001BFE53 /* LaunchScreen.storyboard */; };
 		E1C8339A20549008001BFE53 /* OsirisIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8339920549008001BFE53 /* OsirisIOSTests.swift */; };
 		E1C833A520549008001BFE53 /* OsirisIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C833A420549008001BFE53 /* OsirisIOSUITests.swift */; };
+		E1C833B32054B814001BFE53 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C833B22054B814001BFE53 /* SelectionViewController.swift */; };
+		E1C833B52054B825001BFE53 /* DisplayCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C833B42054B825001BFE53 /* DisplayCharacterViewController.swift */; };
+		E1C833B72054B8E6001BFE53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C833B62054B8E6001BFE53 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5ECAB222949447FA471B8194 /* Pods-OsirisIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsirisIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OsirisIOSTests/Pods-OsirisIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92187EF85FC55DAB90902794 /* Pods_OsirisIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OsirisIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8B75E6F09156AED3049738 /* Pods-OsirisIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsirisIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OsirisIOS/Pods-OsirisIOS.release.xcconfig"; sourceTree = "<group>"; };
+		A2EA0C059C21AF881F11380B /* Pods-OsirisIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsirisIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OsirisIOS/Pods-OsirisIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A446B88B615429978B710BF0 /* Pods_OsirisIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OsirisIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48664F4B3572717A99D0762 /* Pods_OsirisIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OsirisIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0D4729EFC4DF8EA5812873 /* Pods-OsirisIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsirisIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OsirisIOSUITests/Pods-OsirisIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE3CD1A062715DA8698A784F /* Pods-OsirisIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsirisIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OsirisIOSTests/Pods-OsirisIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		E1C8338120549008001BFE53 /* OsirisIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsirisIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C8338420549008001BFE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1C8338620549008001BFE53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,10 @@
 		E1C833A020549008001BFE53 /* OsirisIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OsirisIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C833A420549008001BFE53 /* OsirisIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsirisIOSUITests.swift; sourceTree = "<group>"; };
 		E1C833A620549008001BFE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C833B22054B814001BFE53 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		E1C833B42054B825001BFE53 /* DisplayCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCharacterViewController.swift; sourceTree = "<group>"; };
+		E1C833B62054B8E6001BFE53 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EBBBCF2844FACA71FEABD290 /* Pods-OsirisIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsirisIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OsirisIOSUITests/Pods-OsirisIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E91E3466ED794CF14448019 /* Pods_OsirisIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D44B60B28AED06E01DA503 /* Pods_OsirisIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCCE091FCB6BA16544E81AD /* Pods_OsirisIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				E1C8339820549008001BFE53 /* OsirisIOSTests */,
 				E1C833A320549008001BFE53 /* OsirisIOSUITests */,
 				E1C8338220549008001BFE53 /* Products */,
+				E2808A02A6EEB05DB94C0129 /* Pods */,
+				E5F5A7EA2AE2BB28D6E1D6E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				E1C8338420549008001BFE53 /* AppDelegate.swift */,
+				E1C833B62054B8E6001BFE53 /* User.swift */,
 				E1C8338620549008001BFE53 /* ViewController.swift */,
+				E1C833B22054B814001BFE53 /* SelectionViewController.swift */,
+				E1C833B42054B825001BFE53 /* DisplayCharacterViewController.swift */,
 				E1C8338820549008001BFE53 /* Main.storyboard */,
 				E1C8338B20549008001BFE53 /* Assets.xcassets */,
 				E1C8338D20549008001BFE53 /* LaunchScreen.storyboard */,
@@ -125,6 +151,29 @@
 			path = OsirisIOSUITests;
 			sourceTree = "<group>";
 		};
+		E2808A02A6EEB05DB94C0129 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA0C059C21AF881F11380B /* Pods-OsirisIOS.debug.xcconfig */,
+				9A8B75E6F09156AED3049738 /* Pods-OsirisIOS.release.xcconfig */,
+				5ECAB222949447FA471B8194 /* Pods-OsirisIOSTests.debug.xcconfig */,
+				DE3CD1A062715DA8698A784F /* Pods-OsirisIOSTests.release.xcconfig */,
+				EBBBCF2844FACA71FEABD290 /* Pods-OsirisIOSUITests.debug.xcconfig */,
+				CC0D4729EFC4DF8EA5812873 /* Pods-OsirisIOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5F5A7EA2AE2BB28D6E1D6E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A446B88B615429978B710BF0 /* Pods_OsirisIOS.framework */,
+				C48664F4B3572717A99D0762 /* Pods_OsirisIOSTests.framework */,
+				92187EF85FC55DAB90902794 /* Pods_OsirisIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C833A920549008001BFE53 /* Build configuration list for PBXNativeTarget "OsirisIOS" */;
 			buildPhases = (
+				AE6F084F470E516E6F07C4EE /* [CP] Check Pods Manifest.lock */,
 				E1C8337D20549008001BFE53 /* Sources */,
 				E1C8337E20549008001BFE53 /* Frameworks */,
 				E1C8337F20549008001BFE53 /* Resources */,
+				6B070FBEBBFAE79B60C3D3B6 /* [CP] Embed Pods Frameworks */,
+				04EE2336C7A0087AB753F491 /* [CP] Copy Pods Resources */,
+				E1C833B82054F5C4001BFE53 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C833AC20549008001BFE53 /* Build configuration list for PBXNativeTarget "OsirisIOSTests" */;
 			buildPhases = (
+				D9DEF69DB9892095152BBBA2 /* [CP] Check Pods Manifest.lock */,
 				E1C8339120549008001BFE53 /* Sources */,
 				E1C8339220549008001BFE53 /* Frameworks */,
 				E1C8339320549008001BFE53 /* Resources */,
+				C6EE188B32E3A81FA394C760 /* [CP] Embed Pods Frameworks */,
+				FD9316519A1FF707AD7D9CDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1C833AF20549008001BFE53 /* Build configuration list for PBXNativeTarget "OsirisIOSUITests" */;
 			buildPhases = (
+				DB09F69038EE93C52105FABF /* [CP] Check Pods Manifest.lock */,
 				E1C8339C20549008001BFE53 /* Sources */,
 				E1C8339D20549008001BFE53 /* Frameworks */,
 				E1C8339E20549008001BFE53 /* Resources */,
+				2C9C08D92B16DD1F602EDCD8 /* [CP] Embed Pods Frameworks */,
+				43E568E39335AB044E09F610 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +313,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04EE2336C7A0087AB753F491 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsirisIOS/Pods-OsirisIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C9C08D92B16DD1F602EDCD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsirisIOSUITests/Pods-OsirisIOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43E568E39335AB044E09F610 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsirisIOSUITests/Pods-OsirisIOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B070FBEBBFAE79B60C3D3B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OsirisIOS/Pods-OsirisIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsirisIOS/Pods-OsirisIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6F084F470E516E6F07C4EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OsirisIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6EE188B32E3A81FA394C760 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsirisIOSTests/Pods-OsirisIOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9DEF69DB9892095152BBBA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OsirisIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB09F69038EE93C52105FABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OsirisIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C833B82054F5C4001BFE53 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		FD9316519A1FF707AD7D9CDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OsirisIOSTests/Pods-OsirisIOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1C8337D20549008001BFE53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E1C8338720549008001BFE53 /* ViewController.swift in Sources */,
+				E1C833B52054B825001BFE53 /* DisplayCharacterViewController.swift in Sources */,
+				E1C833B32054B814001BFE53 /* SelectionViewController.swift in Sources */,
+				E1C833B72054B8E6001BFE53 /* User.swift in Sources */,
 				E1C8338520549008001BFE53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +649,7 @@
 		};
 		E1C833AA20549008001BFE53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2EA0C059C21AF881F11380B /* Pods-OsirisIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +665,7 @@
 		};
 		E1C833AB20549008001BFE53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8B75E6F09156AED3049738 /* Pods-OsirisIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +681,7 @@
 		};
 		E1C833AD20549008001BFE53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECAB222949447FA471B8194 /* Pods-OsirisIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +699,7 @@
 		};
 		E1C833AE20549008001BFE53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3CD1A062715DA8698A784F /* Pods-OsirisIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +717,7 @@
 		};
 		E1C833B020549008001BFE53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBBCF2844FACA71FEABD290 /* Pods-OsirisIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +734,7 @@
 		};
 		E1C833B120549008001BFE53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0D4729EFC4DF8EA5812873 /* Pods-OsirisIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

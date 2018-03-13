@@ -23,11 +23,12 @@ class SelectionViewController: UIViewController, SFSpeechRecognizerDelegate, AVS
     override func viewDidLoad() {
         super.viewDidLoad()
         speechRecognizer!.delegate = self
+
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         synth.delegate = self
         self.playText(text: "Select either numbers or letters")
-
-        
-        //Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,7 +38,7 @@ class SelectionViewController: UIViewController, SFSpeechRecognizerDelegate, AVS
     
     @IBAction func numbersPressed(_ sender: Any) {
         User.currentUser.category = .numbers
-        OEPocketsphinxController.sharedInstance().stopListening()
+        performSegue(withIdentifier: "display", sender: self)
     }
     
     @IBAction func lettersPressed(_ sender: Any) {
@@ -52,9 +53,9 @@ class SelectionViewController: UIViewController, SFSpeechRecognizerDelegate, AVS
     }
     
     func analyzeResult(_ hypothesis: String!) { // Something was heard
-        if hypothesis == "Numbers" {
+        if hypothesis! == "Numbers" {
             numbersPressed(self)
-        } else if hypothesis == "Letters" {
+        } else if hypothesis! == "Letters" {
             lettersPressed(self)
         }
     }
@@ -82,7 +83,7 @@ class SelectionViewController: UIViewController, SFSpeechRecognizerDelegate, AVS
             var isFinal = false
             if result != nil {
                 let text = (result?.bestTranscription.formattedString)
-                print(text)
+                print(text!)
                 isFinal = (result?.isFinal)!
                 self.analyzeResult(text!)
             }

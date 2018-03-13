@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 import Speech
 
-class DisplayCharacterViewController: UIViewController, AVSpeechSynthesizerDelegate, OEEventsObserverDelegate, AVAudioPlayerDelegate, SFSpeechRecognizerDelegate {
+class DisplayCharacterViewController: UIViewController, AVSpeechSynthesizerDelegate, SFSpeechRecognizerDelegate {
     
     var cu = User.currentUser
     
@@ -28,6 +28,7 @@ class DisplayCharacterViewController: UIViewController, AVSpeechSynthesizerDeleg
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     private var recognitionTask: SFSpeechRecognitionTask?
     private let audioEngine = AVAudioEngine()
+    var button = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,82 +40,19 @@ class DisplayCharacterViewController: UIViewController, AVSpeechSynthesizerDeleg
     override func viewDidAppear(_ animated: Bool) {
         switch cu.category! {
         case .numbers:
-            cu.playSound(text: "Let's learn Numbers!", synth: synth)
+            self.playText(text: "Let's learn Numbers!")
         case .letters:
-            cu.playSound(text: "Let's learn Letters!", synth: synth)
+            self.playText(text: "Let's learn Letters!")
         }
     }
     
-    func startRecording() {
-        
-        if recognitionTask != nil {
-            recognitionTask?.cancel()
-            recognitionTask = nil
-        }
-        
-        let audioSession = AVAudioSession.sharedInstance()
-        do {
-            try audioSession.setCategory(AVAudioSessionCategoryRecord)
-            try audioSession.setMode(AVAudioSessionModeMeasurement)
-            try audioSession.setActive(true, with: .notifyOthersOnDeactivation)
-        } catch {
-            print("audioSession properties weren't set because of an error.")
-        }
-        
-        recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
-        
-        let inputNode = audioEngine.inputNode
-        
-        guard let recognitionRequest = recognitionRequest else {
-            fatalError("Unable to create an SFSpeechAudioBufferRecognitionRequest object")
-        }
-        
-        recognitionRequest.shouldReportPartialResults = true
-        
-        recognitionTask = speechRecognizer?.recognitionTask(with: recognitionRequest, resultHandler: { (result, error) in
-            
-            var isFinal = false
-            
-            if result != nil {
-                
-                print(result?.bestTranscription.formattedString)
-                isFinal = (result?.isFinal)!
-            }
-            
-            if error != nil || isFinal {
-                self.audioEngine.stop()
-                inputNode.removeTap(onBus: 0)
-                self.recognitionRequest = nil
-                self.recognitionTask = nil
-            }
-        })
-        
-        let recordingFormat = inputNode.outputFormat(forBus: 0)
-        inputNode.installTap(onBus: 0, bufferSize: 1024, format: recordingFormat) { (buffer, when) in
-            self.recognitionRequest?.append(buffer)
-        }
-        
-        audioEngine.prepare()
-        
-        do {
-            try audioEngine.start()
-        } catch {
-            print("audioEngine couldn't start because of an error.")
-        }
-        
-        //textView.text = "Say something, I'm listening!"
-        
-    }
-    
-    
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     @IBAction func repeatAudio(_ sender: Any) {
-            cu.playSound(text: "\(currentValue)", synth: synth)
+            self.playText(text: "\(currentValue!)")
     }
     
     @IBAction func nextCharacter(_ sender: Any) {
@@ -133,20 +71,6 @@ class DisplayCharacterViewController: UIViewController, AVSpeechSynthesizerDeleg
             getLetterData()
         }
     }
- 
-    func pocketsphinxDidReceiveHypothesis(_ hypothesis: String!, recognitionScore: String!, utteranceID: String!) {
-        
-        print("Local callback: The received hypothesis is \(hypothesis!) with a score of \(recognitionScore!) and an ID of \(utteranceID!)")
-        if hypothesis == "Repeat" {
-            repeatAudio(self)
-        } else if hypothesis == "Next" {
-            nextCharacter(self)
-        } else if hypothesis == "Back" {
-            dismiss(animated: true, completion: nil)
-        }
-    }
-    
-    
     
     func getNumData() {
         if listOfNums.count == 0 {
@@ -156,7 +80,7 @@ class DisplayCharacterViewController: UIViewController, AVSpeechSynthesizerDeleg
         currentValue = "\(listOfNums[randomIndex])"
         //makeRequest()
         self.listOfNums.remove(at: randomIndex)
-        self.getAudio(name: currentValue!)
+        self.playText(text: "\(currentValue!)")
     }
     
     func getLetterData() {
@@ -167,7 +91,7 @@ class DisplayCharacterViewController: UIViewController, AVSpeechSynthesizerDeleg
         currentValue = "\(listOfLetters[randomIndex])"
         makeRequest()
         self.listOfLetters.remove(at: randomIndex)
-        cu.playSound(text: currentValue!, synth: synth)
+        self.playText(text: "\(currentValue!)")
     }
     
     func makeRequest() {
@@ -187,31 +111,93 @@ class DisplayCharacterViewController: UIViewController, AVSpeechSynthesizerDeleg
         }
     }
     
-    func getAudio(name: String) {
-        OEPocketsphinxController.sharedInstance().suspendRecognition()
-        guard let url = Bundle.main.url(forResource: name, withExtension: "wav") else { return }
-        
-        do {
-            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-            try AVAudioSession.sharedInstance().setActive(true)
-            
-            /* The following line is required for the player to work on iOS 11. Change the file type accordingly*/
-            player2 = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.wav.rawValue)
-            
-            /* iOS 10 and earlier require the following line:
-             player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileTypeMPEGLayer3) */
-            
-            player2!.play()
-            
-        } catch let error {
-            print(error.localizedDescription)
+    func playText(text: String) {
+        let utterance = AVSpeechUtterance(string: text)
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        synth.speak(utterance)
+    }
+    
+    func analyzeResult(_ hypothesis: String!) { // Something was heard
+        if button.isHidden != true {
+            if hypothesis! == "Repeat" {
+                repeatAudio(self)
+                button.isHidden = true
+            } else if hypothesis! == "Next" {
+                nextCharacter(self)
+                button.isHidden = true
+            }
         }
     }
     
-    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
-        player2!.stop()
-        player2 = nil
-        OEPocketsphinxController.sharedInstance().resumeRecognition()
+    func startRecording() {
+        if recognitionTask != nil {
+            recognitionTask?.cancel()
+            recognitionTask = nil
+        }
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            try audioSession.setCategory(AVAudioSessionCategoryPlayAndRecord)
+            try audioSession.setMode(AVAudioSessionModeMeasurement)
+            try audioSession.setActive(true, with: .notifyOthersOnDeactivation)
+        } catch {
+            print("audioSession properties weren't set because of an error.")
+        }
+        recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
+        let inputNode = audioEngine.inputNode
+        guard let recognitionRequest = recognitionRequest else {
+            fatalError("Unable to create an SFSpeechAudioBufferRecognitionRequest object")
+        }
+        recognitionRequest.shouldReportPartialResults = true
+        recognitionTask = speechRecognizer?.recognitionTask(with: recognitionRequest, resultHandler: { (result, error) in
+            var isFinal = false
+            if result != nil {
+                let text = (result?.bestTranscription.formattedString)
+                print(text!)
+                isFinal = (result?.isFinal)!
+                self.analyzeResult(text!)
+            }
+            if error != nil || isFinal {
+                self.audioEngine.stop()
+                inputNode.removeTap(onBus: 0)
+                self.recognitionRequest = nil
+                self.recognitionTask = nil
+            }
+        })
+        let recordingFormat = inputNode.outputFormat(forBus: 0)
+        inputNode.installTap(onBus: 0, bufferSize: 1024, format: recordingFormat) { (buffer, when) in
+            self.recognitionRequest?.append(buffer)
+        }
+        audioEngine.prepare()
+        do {
+            try audioEngine.start()
+        } catch {
+            print("audioEngine couldn't start because of an error.")
+        }
+    }
+    
+    func addButton() {
+        button.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height)
+        button.backgroundColor = UIColor.white
+        button.setTitle("Listening...", for: .normal)
+        button.setTitleColor(UIColor.black, for: .normal)
+        button.isHidden = true
+        button.addTarget(self, action: #selector(doneListening), for: .touchUpInside)
+        self.view.addSubview(button)
+    }
+    
+    @objc func doneListening() {
+        if audioEngine.isRunning {
+            audioEngine.stop()
+            recognitionRequest?.endAudio()
+        }
+    }
+    
+    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
+        print("Motion Began")
+        startRecording()
+        addButton()
+        button.isHidden = false
+        
     }
     
     

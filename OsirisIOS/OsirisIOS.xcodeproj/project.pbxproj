@@ -10,6 +10,10 @@
 		02D44B60B28AED06E01DA503 /* Pods_OsirisIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48664F4B3572717A99D0762 /* Pods_OsirisIOSTests.framework */; };
 		5CCCE091FCB6BA16544E81AD /* Pods_OsirisIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92187EF85FC55DAB90902794 /* Pods_OsirisIOSUITests.framework */; };
 		5E91E3466ED794CF14448019 /* Pods_OsirisIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A446B88B615429978B710BF0 /* Pods_OsirisIOS.framework */; };
+		E181EAE520574A08006BB69D /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E181EAE220574A05006BB69D /* AcousticModelEnglish.bundle */; };
+		E181EAE620574A08006BB69D /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181EAE320574A08006BB69D /* OpenEars.framework */; };
+		E181EAE720574A08006BB69D /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181EAE420574A08006BB69D /* Slt.framework */; };
+		E181EAE920574A3D006BB69D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181EAE820574A3D006BB69D /* AVFoundation.framework */; };
 		E1C8338520549008001BFE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8338420549008001BFE53 /* AppDelegate.swift */; };
 		E1C8338720549008001BFE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8338620549008001BFE53 /* ViewController.swift */; };
 		E1C8338A20549008001BFE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C8338820549008001BFE53 /* Main.storyboard */; };
@@ -48,6 +52,11 @@
 		C48664F4B3572717A99D0762 /* Pods_OsirisIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OsirisIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0D4729EFC4DF8EA5812873 /* Pods-OsirisIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsirisIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OsirisIOSUITests/Pods-OsirisIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DE3CD1A062715DA8698A784F /* Pods-OsirisIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OsirisIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OsirisIOSTests/Pods-OsirisIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E181EAE220574A05006BB69D /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		E181EAE320574A08006BB69D /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		E181EAE420574A08006BB69D /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Slt.framework; path = ../../../../Downloads/OpenEarsDistribution/Framework/Slt.framework; sourceTree = "<group>"; };
+		E181EAE820574A3D006BB69D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E181EAEA20574A8F006BB69D /* OpenEarsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenEarsHeader.h; sourceTree = "<group>"; };
 		E1C8338120549008001BFE53 /* OsirisIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsirisIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C8338420549008001BFE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1C8338620549008001BFE53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +81,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E181EAE920574A3D006BB69D /* AVFoundation.framework in Frameworks */,
+				E181EAE720574A08006BB69D /* Slt.framework in Frameworks */,
 				5E91E3466ED794CF14448019 /* Pods_OsirisIOS.framework in Frameworks */,
+				E181EAE620574A08006BB69D /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +141,7 @@
 				E1C8338B20549008001BFE53 /* Assets.xcassets */,
 				E1C8338D20549008001BFE53 /* LaunchScreen.storyboard */,
 				E1C8339020549008001BFE53 /* Info.plist */,
+				E181EAEA20574A8F006BB69D /* OpenEarsHeader.h */,
 			);
 			path = OsirisIOS;
 			sourceTree = "<group>";
@@ -167,6 +180,10 @@
 		E5F5A7EA2AE2BB28D6E1D6E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E181EAE820574A3D006BB69D /* AVFoundation.framework */,
+				E181EAE220574A05006BB69D /* AcousticModelEnglish.bundle */,
+				E181EAE320574A08006BB69D /* OpenEars.framework */,
+				E181EAE420574A08006BB69D /* Slt.framework */,
 				A446B88B615429978B710BF0 /* Pods_OsirisIOS.framework */,
 				C48664F4B3572717A99D0762 /* Pods_OsirisIOSTests.framework */,
 				92187EF85FC55DAB90902794 /* Pods_OsirisIOSUITests.framework */,
@@ -292,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C8338F20549008001BFE53 /* LaunchScreen.storyboard in Resources */,
+				E181EAE520574A08006BB69D /* AcousticModelEnglish.bundle in Resources */,
 				E1C8338C20549008001BFE53 /* Assets.xcassets in Resources */,
 				E1C8338A20549008001BFE53 /* Main.storyboard in Resources */,
 			);
@@ -654,10 +672,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V593WX43L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OsirisIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheCodex.OsirisIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/OsirisIOS/OpenEarsHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -670,10 +695,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V593WX43L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OsirisIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TheCodex.OsirisIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/OsirisIOS/OpenEarsHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

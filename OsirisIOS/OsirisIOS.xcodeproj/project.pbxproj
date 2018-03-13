@@ -14,6 +14,16 @@
 		E181EAE620574A08006BB69D /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181EAE320574A08006BB69D /* OpenEars.framework */; };
 		E181EAE720574A08006BB69D /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181EAE420574A08006BB69D /* Slt.framework */; };
 		E181EAE920574A3D006BB69D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E181EAE820574A3D006BB69D /* AVFoundation.framework */; };
+		E1B716BC205774310060F80F /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1B716B2205774310060F80F /* 2.wav */; };
+		E1B716BD205774310060F80F /* 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1B716B3205774310060F80F /* 9.wav */; };
+		E1B716BE205774310060F80F /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1B716B4205774310060F80F /* 1.wav */; };
+		E1B716BF205774310060F80F /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1B716B5205774310060F80F /* 5.wav */; };
+		E1B716C0205774310060F80F /* 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1B716B6205774310060F80F /* 0.wav */; };
+		E1B716C1205774310060F80F /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1B716B7205774310060F80F /* 6.wav */; };
+		E1B716C2205774310060F80F /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1B716B8205774310060F80F /* 7.wav */; };
+		E1B716C3205774310060F80F /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1B716B9205774310060F80F /* 4.wav */; };
+		E1B716C4205774320060F80F /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1B716BA205774310060F80F /* 8.wav */; };
+		E1B716C5205774320060F80F /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1B716BB205774310060F80F /* 3.wav */; };
 		E1C8338520549008001BFE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8338420549008001BFE53 /* AppDelegate.swift */; };
 		E1C8338720549008001BFE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C8338620549008001BFE53 /* ViewController.swift */; };
 		E1C8338A20549008001BFE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C8338820549008001BFE53 /* Main.storyboard */; };
@@ -57,6 +67,16 @@
 		E181EAE420574A08006BB69D /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Slt.framework; path = ../../../../Downloads/OpenEarsDistribution/Framework/Slt.framework; sourceTree = "<group>"; };
 		E181EAE820574A3D006BB69D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E181EAEA20574A8F006BB69D /* OpenEarsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenEarsHeader.h; sourceTree = "<group>"; };
+		E1B716B2205774310060F80F /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 2.wav; path = "../../../../../../Downloads/audio-numbers/2.wav"; sourceTree = "<group>"; };
+		E1B716B3205774310060F80F /* 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 9.wav; path = "../../../../../../Downloads/audio-numbers/9.wav"; sourceTree = "<group>"; };
+		E1B716B4205774310060F80F /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 1.wav; path = "../../../../../../Downloads/audio-numbers/1.wav"; sourceTree = "<group>"; };
+		E1B716B5205774310060F80F /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 5.wav; path = "../../../../../../Downloads/audio-numbers/5.wav"; sourceTree = "<group>"; };
+		E1B716B6205774310060F80F /* 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 0.wav; path = "../../../../../../Downloads/audio-numbers/0.wav"; sourceTree = "<group>"; };
+		E1B716B7205774310060F80F /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 6.wav; path = "../../../../../../Downloads/audio-numbers/6.wav"; sourceTree = "<group>"; };
+		E1B716B8205774310060F80F /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 7.wav; path = "../../../../../../Downloads/audio-numbers/7.wav"; sourceTree = "<group>"; };
+		E1B716B9205774310060F80F /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 4.wav; path = "../../../../../../Downloads/audio-numbers/4.wav"; sourceTree = "<group>"; };
+		E1B716BA205774310060F80F /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 8.wav; path = "../../../../../../Downloads/audio-numbers/8.wav"; sourceTree = "<group>"; };
+		E1B716BB205774310060F80F /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 3.wav; path = "../../../../../../Downloads/audio-numbers/3.wav"; sourceTree = "<group>"; };
 		E1C8338120549008001BFE53 /* OsirisIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsirisIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C8338420549008001BFE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1C8338620549008001BFE53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +127,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1B716B1205774210060F80F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E1B716B6205774310060F80F /* 0.wav */,
+				E1B716B4205774310060F80F /* 1.wav */,
+				E1B716B2205774310060F80F /* 2.wav */,
+				E1B716BB205774310060F80F /* 3.wav */,
+				E1B716B9205774310060F80F /* 4.wav */,
+				E1B716B5205774310060F80F /* 5.wav */,
+				E1B716B7205774310060F80F /* 6.wav */,
+				E1B716B3205774310060F80F /* 9.wav */,
+				E1B716B8205774310060F80F /* 7.wav */,
+				E1B716BA205774310060F80F /* 8.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		E1C8337820549008001BFE53 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +169,8 @@
 		E1C8338320549008001BFE53 /* OsirisIOS */ = {
 			isa = PBXGroup;
 			children = (
+				E1B716B1205774210060F80F /* Sounds */,
+				E1C8338D20549008001BFE53 /* LaunchScreen.storyboard */,
 				E1C8338420549008001BFE53 /* AppDelegate.swift */,
 				E1C833B62054B8E6001BFE53 /* User.swift */,
 				E1C8338620549008001BFE53 /* ViewController.swift */,
@@ -139,7 +178,6 @@
 				E1C833B42054B825001BFE53 /* DisplayCharacterViewController.swift */,
 				E1C8338820549008001BFE53 /* Main.storyboard */,
 				E1C8338B20549008001BFE53 /* Assets.xcassets */,
-				E1C8338D20549008001BFE53 /* LaunchScreen.storyboard */,
 				E1C8339020549008001BFE53 /* Info.plist */,
 				E181EAEA20574A8F006BB69D /* OpenEarsHeader.h */,
 			);
@@ -308,9 +346,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B716C5205774320060F80F /* 3.wav in Resources */,
+				E1B716C2205774310060F80F /* 7.wav in Resources */,
+				E1B716BD205774310060F80F /* 9.wav in Resources */,
+				E1B716BE205774310060F80F /* 1.wav in Resources */,
 				E1C8338F20549008001BFE53 /* LaunchScreen.storyboard in Resources */,
 				E181EAE520574A08006BB69D /* AcousticModelEnglish.bundle in Resources */,
 				E1C8338C20549008001BFE53 /* Assets.xcassets in Resources */,
+				E1B716C1205774310060F80F /* 6.wav in Resources */,
+				E1B716BC205774310060F80F /* 2.wav in Resources */,
+				E1B716C0205774310060F80F /* 0.wav in Resources */,
+				E1B716C4205774320060F80F /* 8.wav in Resources */,
+				E1B716C3205774310060F80F /* 4.wav in Resources */,
+				E1B716BF205774310060F80F /* 5.wav in Resources */,
 				E1C8338A20549008001BFE53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

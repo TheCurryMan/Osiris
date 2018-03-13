@@ -12,7 +12,7 @@
 #import <OpenEars/OEPocketsphinxController.h>
 #import <OpenEars/OELanguageModelGenerator.h>
 #import <OpenEars/OEFliteController.h>
-//#import <Slt/Slt.h> // Only needed if using Flite speech
+#import <Slt/Slt.h> // Only needed if using Flite speech
 #import <OpenEars/OEEventsObserver.h>
 #import <OpenEars/OELogging.h>
 #import <OpenEars/OEAcousticModel.h>

@@ -135,10 +135,10 @@
             </objects>
             <point key="canvasLocation" x="924" y="131"/>
         </scene>
-        <!--View Controller-->
+        <!--Test View Controller-->
         <scene sceneID="VRL-0V-BL2">
             <objects>
-                <viewController id="E4T-RO-6v5" sceneMemberID="viewController">
+                <viewController id="E4T-RO-6v5" customClass="TestViewController" customModule="OsirisIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Md-Ir-9vV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,6 +153,7 @@
                                 </state>
                                 <connections>
                                     <action selector="nextCharacter:" destination="l0o-y7-k2x" eventType="touchUpInside" id="JfH-iD-3Za"/>
+                                    <action selector="nextCharacter:" destination="E4T-RO-6v5" eventType="touchUpInside" id="fQ9-df-4ob"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rtF-3s-G18">
@@ -164,6 +165,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="donePressed:" destination="E4T-RO-6v5" eventType="touchUpInside" id="Olc-D7-wZI"/>
                                     <action selector="repeatAudio:" destination="l0o-y7-k2x" eventType="touchUpInside" id="TyS-WD-ruw"/>
                                 </connections>
                             </button>

@@ -38,12 +38,20 @@ class SelectionViewController: UIViewController, SFSpeechRecognizerDelegate, AVS
     
     @IBAction func numbersPressed(_ sender: Any) {
         User.currentUser.category = .numbers
-        performSegue(withIdentifier: "display", sender: self)
+        if cu.action == Action.learn {
+            performSegue(withIdentifier: "display", sender: self)
+        } else {
+            performSegue(withIdentifier: "test", sender: self)
+        }
     }
     
     @IBAction func lettersPressed(_ sender: Any) {
         User.currentUser.category = .letters
-        performSegue(withIdentifier: "display", sender: self)
+        if cu.action == Action.learn {
+            performSegue(withIdentifier: "display", sender: self)
+        } else {
+            performSegue(withIdentifier: "test", sender: self)
+        }
     }
     
     func playText(text: String) {

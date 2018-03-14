@@ -78,7 +78,7 @@ class DisplayCharacterViewController: UIViewController, AVSpeechSynthesizerDeleg
         }
         let randomIndex = Int(arc4random_uniform(UInt32(listOfNums.count)))
         currentValue = "\(listOfNums[randomIndex])"
-        //makeRequest()
+        makeRequest()
         self.listOfNums.remove(at: randomIndex)
         self.playText(text: "\(currentValue!)")
     }
